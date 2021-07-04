@@ -22,5 +22,5 @@ jobs:
           su hassan
           cd /home/hassan/
           cd CampaignManager
-          docker-compose down
+          free -m
           
