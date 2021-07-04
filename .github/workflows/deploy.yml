@@ -20,7 +20,7 @@ jobs:
         username: ${{ secrets.USER }}
         script: |
           su hassan
-          cd ..
+          cd
           cd CampaignManager
           docker-compose down
           
