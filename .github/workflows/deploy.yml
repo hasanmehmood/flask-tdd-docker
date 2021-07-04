@@ -16,5 +16,6 @@ jobs:
     - uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.VANGUARD }}
+        key: ${{ secrets.KEY }}
         username: ${{ secrets.USER }}
         script: whoami
