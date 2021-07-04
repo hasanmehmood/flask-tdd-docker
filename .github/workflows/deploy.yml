@@ -2,9 +2,9 @@ name: Check Free Memory
 
 on:
   push:
-    branches: [ hassan-dev ]
+    branches: [ master ]
   pull_request:
-    branches: [ hassan-dev ]
+    branches: [ master ]
 
 jobs:
 
